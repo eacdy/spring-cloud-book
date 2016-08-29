@@ -23,3 +23,77 @@ Spring Cloud 包含了多个子项目：
 
 Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://projects.spring.io/spring-cloud/)
 
+
+
+ Talk is cheep, show me the code.下面我们将以代码与讲解结合的方式，为大家讲解Spring Cloud中的各种组件。
+
+
+
+## 准备
+
+环境准备：
+
+| 工具    | 版本或描述                |
+| ----- | -------------------- |
+| JDK   | 1.8                  |
+| IDE   | STS 或者 IntelliJ IDEA |
+| Maven | 3.x                  |
+
+主机名配置：
+
+| 主机名配置（C:\Windows\System32\drivers\etc\hosts文件） |
+| ---------------------------------------- |
+| 127.0.0.1    discovery configserver gateway |
+
+在进入主题之前，我们首先创建一个父项目（spring-cloud-microservice-study），这样可以对项目中的Maven依赖进行统一的管理。
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.itmuch.cloud</groupId>
+	<artifactId>spring-cloud-microservice-study</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>microservice-discovery-eureka</module>
+		<module>microservice-provider-user</module>
+	</modules>
+
+	<!-- 使用最新的spring-boot版本 -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.0.RELEASE</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Brixton.SR4</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+```
