@@ -1,5 +1,4 @@
-# 使用Spring Cloud和Docker构建微服务
-
+# 序言
 
 ## 什么是微服务架构
 
@@ -52,6 +51,9 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 | 项目名称                                     | 端口   | 描述                     | URL             |
 | ---------------------------------------- | ---- | ---------------------- | --------------- |
+| microservice-api-gateway                 | 8050 | API Gateway            | 详见文章            |
+| microservice-config-client               | 8041 | 配置服务的客户端               | 详见文章            |
+| microservice-config-server               | 8040 | 配置服务                   | 详见文章            |
 | microservice-consumer-movie-feign        | 8020 | Feign Demo             | /feign/1        |
 | microservice-consumer-movie-feign-with-hystrix | 8021 | Feign Hystrix Demo     | /feign/1        |
 | microservice-consumer-movie-feign-with-hystrix-stream | 8022 | Hystrix Dashboard Demo | /feign/1        |
@@ -61,7 +63,6 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 | microservice-hystrix-dashboard           | 8030 | hystrix监控              | /hystrix.stream |
 | microservice-hystrix-turbine             | 8031 | turbine                | /turbine.stream |
 | microservice-provider-user               | 8000 | 服务提供者                  | /1              |
-| microservice-config-server               | 8040 | 配置服务                   |                 |
 |                                          |      |                        |                 |
 
 Spring Cloud所有的配置项：
@@ -127,4 +128,3 @@ Spring Cloud所有的配置项：
 	</build>
 </project>
 ```
-
