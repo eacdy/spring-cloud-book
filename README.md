@@ -74,7 +74,9 @@ gitbook serve
 
 ### 懒人用法
 
-将代码pull到本地后，使用Typora等Markdown工具阅读。
+方法一、将代码pull到本地后，使用Typora等Markdown工具阅读。
+
+方法二、直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
 
 
 
