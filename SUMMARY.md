@@ -11,6 +11,6 @@
     * [第1节：Hystrix](chapter5/5.1 Hystrix.md)
     * [第2节：Hystrix Dashboard](chapter5/5.2 Hystrix Dashboard.md)
     * [第3节：Turbine](chapter5/5.3 Turbine.md)
-* [第6章：配置中心](chapter6/6 配置中心1.md)
+* [第6章：配置中心](chapter6/6 配置中心.md)
 * [第7章：API Gateway](chapter7/7 API Gateway.md)
 
