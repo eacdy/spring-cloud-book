@@ -2,24 +2,27 @@
 
 ## 简介
 
-本文主要是对Spring Cloud学习的一些总结，目录：
+本文主要是对Spring Cloud学习的一些总结，探讨的话题包括：
 
-1. 什么是微服务
-2. 注册中心Eureka
-3. 服务提供者
-4. 服务消费者
-   1. 客户端负载均衡Ribbon
-   2. 简化的Http客户端Feign
-5. 熔断器
-   1. Hystrix
-   2. Hystrix监控界面Hystrix Dashboard
-   3. Hystrix集群监控工具Turbine
-6. 配置中心
-7. API Gateway
+| 探讨的话题       | 话题包含内容                                   | 讲解状态 |
+| ----------- | ---------------------------------------- | ---- |
+| 什么是微服务      | 微服务介绍、项目准备                               | 已完成  |
+| 注册中心        | Eureka                                   | 已完成  |
+| 服务提供者       | Spring MVC、Spring Data JPA等              | 已完成  |
+| 服务消费者       | 客户端负载均衡Ribbon、简化的Http客户端Feign            | 已完成  |
+| 熔断器         | Hystrix、Hystrix监控界面Hystrix Dashboard、Hystrix集群监控工具Turbine | 已完成  |
+| 配置中心        | Spring Cloud Config Server               | 已完成  |
+| API Gateway | Zuul                                     | 已完成  |
+| Docker      | Docker的入门及使用                             | 未完成  |
 
 
+目前截止到API Gateway已经完成。至此，基于Spring Cloud构建微服务的必要组件已经讲解完成。
 
-目前截止到API Gateway已经完成。基于Spring Cloud构建微服务的必要组件已经讲解完成。下一步是讲解Docker的使用，以及如何使用Docker部署Spring Cloud应用。
+**迭代计划**
+
+> 1. 讲解Docker的使用，以及如何使用Docker部署Spring Cloud应用。
+> 2. 汇总成一个开箱可用的脚手架框架
+> 3. 总结一个Spring Cloud开发的最佳实践
 
 
 
