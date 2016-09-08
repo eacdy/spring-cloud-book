@@ -87,6 +87,7 @@ gitbook serve
 
 ## 广告
 
-
 欢迎探讨、star、fork、pull request、喷。哈哈。
 微服务架构交流QQ群：157525002，欢迎加入。
+
+微服务架构讨论社区：[http://ask.itmuch.com/](http://ask.itmuch.com/)，欢迎加入。
