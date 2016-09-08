@@ -4,16 +4,16 @@
 
 本文主要是对Spring Cloud学习的一些总结，探讨的话题包括：
 
-| 探讨的话题       | 话题包含内容                                   | 讲解状态 |
-| ----------- | ---------------------------------------- | ---- |
-| 什么是微服务      | 微服务介绍、项目准备                               | 已完成  |
-| 注册中心        | Eureka                                   | 已完成  |
-| 服务提供者       | Spring MVC、Spring Data JPA等              | 已完成  |
-| 服务消费者       | 客户端负载均衡Ribbon、简化的Http客户端Feign            | 已完成  |
-| 熔断器         | Hystrix、Hystrix监控界面Hystrix Dashboard、Hystrix集群监控工具Turbine | 已完成  |
-| 配置中心        | Spring Cloud Config Server               | 已完成  |
-| API Gateway | Zuul                                     | 已完成  |
-| Docker      | Docker的入门及使用                             | 未完成  |
+| 章节            | 探讨的话题       | 话题包含内容                                   | 讲解状态 |
+| ------------- | ----------- | ---------------------------------------- | ---- |
+| 微服务简介         | 什么是微服务      | 微服务介绍、项目准备                               | 已完成  |
+| Spring Cloud  | 注册中心        | Eureka                                   | 已完成  |
+| Spring Cloud  | 服务提供者       | Spring MVC、Spring Data JPA等              | 已完成  |
+| Spring Cloud  | 服务消费者       | 客户端负载均衡Ribbon、简化的Http客户端Feign            | 已完成  |
+| Spring Cloud  | 熔断器         | Hystrix、Hystrix监控界面Hystrix Dashboard、Hystrix集群监控工具Turbine | 已完成  |
+| Spring Cloud  | 配置中心        | Spring Cloud Config Server               | 已完成  |
+| Spring Cloud  | API Gateway | Zuul                                     | 已完成  |
+| 使用Docker构建微服务 | Docker      | Docker的入门及使用                             | 部分完成 |
 
 
 目前截止到API Gateway已经完成。至此，基于Spring Cloud构建微服务的必要组件已经讲解完成。
