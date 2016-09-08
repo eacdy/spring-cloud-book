@@ -1,21 +1,8 @@
-# 序言
-
-## 什么是微服务架构
-
-近年来，在软件开发领域关于微服务的讨论呈现出火爆的局面，有人倾向于在系统设计与开发中采用微服务方式实现软件系统的松耦合、跨部门开发；同时，反对之声也很强烈，持反对观点的人表示微服务增加了系统维护、部署的难度，导致一些功能模块或代码无法复用，同时微服务允许使用不同的语言和框架来开发各个系统模块，这又会增加系统集成与测试的难度，而且随着系统规模的日渐增长，微服务在一定程度上也会导致系统变得越来越复杂。尽管一些公司已经在生产系统中采用了微服务架构，并且取得了良好的效果；但更多公司还是处在观望的态度。
-
-什么是微服务架构呢？简单说就是将一个完整的应用（单体应用）按照一定的拆分规则（后文讲述）拆分成多个不同的服务，每个服务都能独立地进行开发、部署、扩展。服务于服务之间通过注入RESTful api或其他方式调用。大家可以搜索到很多相关介绍和文章。本文暂不细表。
-
-在此推荐两个比较好的博客：
-
->[http://microservices.io/](http://microservices.io/)
->[http://martinfowler.com/articles/microservices.html](http://martinfowler.com/articles/microservices.html)
-
-
+# 2 Spring Cloud
 
 ## Spring Cloud 简介
 
-Spring Cloud是在Spring Boot的基础上构建的，为开发人员提供快速建立分布式系统中的一些常见的模式
+Spring Cloud是在Spring Boot的基础上构建的，用于简化分布式系统构建的工具集，为开发人员提供快速建立分布式系统中的一些常见的模式。
 
 >  例如：配置管理（configuration management），服务发现（service discovery），断路器（circuit breakers），智能路由（ intelligent routing），微代理（micro-proxy），控制总线（control bus），一次性令牌（ one-time tokens），全局锁（global locks），领导选举（leadership election），分布式会话（distributed sessions），集群状态（cluster state）。
 
@@ -31,15 +18,31 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 
 
-## 准备
+## 准备工作
+
+
+技术储备：
+
+| 所需技能        | 备注                              |
+| ----------- | ------------------------------- |
+| Java        |                                 |
+| Maven       | 文章涉及到大量的代码，均使用Maven构建           |
+| Spring Boot | Spring Cloud是在Spring Boot基础上构建的 |
 
 环境准备：
 
-| 工具    | 版本或描述                |
-| ----- | -------------------- |
-| JDK   | 1.8                  |
-| IDE   | STS 或者 IntelliJ IDEA |
-| Maven | 3.x                  |
+| 工具    | 版本或描述                            |
+| ----- | -------------------------------- |
+| JDK   | 1.8                              |
+| IDE   | STS 或者 IntelliJ IDEA，本教程使用的是STS. |
+| Maven | 3.x                              |
+
+本课程所使用的软件及版本：
+
+| 使用到的软件       | 版本号           | 是否最新版本 |
+| ------------ | ------------- | ------ |
+| Spring Boot  | 1.4.0.RELEASE | 是      |
+| Spring Cloud | Brixton.SR5   | 是      |
 
 主机名配置：
 
@@ -67,7 +70,9 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 Spring Cloud所有的配置项：
 
-> [http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties](http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties)
+[http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties](http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties)
+
+父项目的建立
 
 在进入主题之前，我们首先创建一个父项目（spring-cloud-microservice-study），这样可以对项目中的Maven依赖进行统一的管理。
 
@@ -92,6 +97,9 @@ Spring Cloud所有的配置项：
 		<module>microservice-hystrix-dashboard</module>
 		<module>microservice-consumer-movie-feign-with-hystrix-stream</module>
 		<module>microservice-hystrix-turbine</module>
+		<module>microservice-config-server</module>
+		<module>microservice-config-client</module>
+		<module>microservice-api-gateway</module>
 	</modules>
 
 	<!-- 使用最新的spring-boot版本 -->
@@ -111,7 +119,7 @@ Spring Cloud所有的配置项：
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Brixton.SR4</version>
+				<version>Brixton.SR5</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -128,3 +136,10 @@ Spring Cloud所有的配置项：
 	</build>
 </project>
 ```
+
+
+
+## TIPS
+
+1. 笔者讲解采用最新的Spring Boot 和Spring Cloud进行讲解，其中可能涉及到部分新特性，笔者尽量指出，同时笔者能力有限，如有理解不到位的地方，还请各位看客指出，定在第一时间进行修正。
+2. Spring Cloud版本并不是传统的使用数字的方式标识，而是使用例如：Angel、Brixton、Camden...等等伦敦的地名来命名版本，版本的先后顺序大家可能已经猜到了，就是使用字母表的先后来标识的。笔者在咨询过Spring Cloud的主要贡献者之一Josh Long之后已经确认。
