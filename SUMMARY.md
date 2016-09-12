@@ -18,6 +18,6 @@
     * [3.1 Docker介绍](3 使用Docker构建微服务/3.1 Docker介绍.md)
     * [3.2 Docker的安装](3 使用Docker构建微服务/3.2 Docker的安装.md)
 	* [3.3 Docker的常用命令](3 使用Docker构建微服务/3.3 Docker的常用命令.md)
-	* [3.4 Dockerfile常用命令](3 使用Docker构建微服务/3.4 Dockerfile常用命令.md)
+	* [3.4 Dockerfile常用指令](3 使用Docker构建微服务/3.4 Dockerfile常用指令.md)
 	* [3.5 使用Dockerfile构建Docker镜像](3 使用Docker构建微服务/3.5 使用Dockerfile构建Docker镜像.md)
 	* [3.6 使用Maven插件构建Docker镜像](3 使用Docker构建微服务/3.6 使用Maven插件构建Docker镜像.md)
