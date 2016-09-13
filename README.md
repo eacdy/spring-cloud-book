@@ -1,5 +1,7 @@
 # 使用Spring Cloud和Docker构建微服务
 
+
+
 ## 简介
 
 本文主要是对Spring Cloud学习的一些总结，探讨的话题包括：
@@ -82,6 +84,14 @@ gitbook serve
 
 ## 配套代码
 [http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
+
+
+
+##  鸣谢
+
+S1ahs3r  Leoops
+
+感谢其为项目作出的贡献！
 
 
 
