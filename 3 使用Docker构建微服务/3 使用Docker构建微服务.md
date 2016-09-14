@@ -131,7 +131,9 @@ Maven的安装比较简单，只需要下载后解压，配置环境变量即可
 
 
 
+## CentOS下Git的安装
 
-
-
+```shell
+yum install git
+```
 
