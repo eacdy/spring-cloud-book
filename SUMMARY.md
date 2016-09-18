@@ -14,6 +14,7 @@
         * [2.4.3. Turbine](2 Spring Cloud/2.4.3 Turbine.md)
     * [2.5 配置中心](2 Spring Cloud/2.5 配置中心.md)
     * [2.6 API Gateway](2 Spring Cloud/2.6 API Gateway.md)
+	* [2.7 2.7 Eureka的高可用](2 Spring Cloud/2.7 Eureka的高可用.md)
 * [3 使用Docker构建微服务](3 使用Docker构建微服务/3 使用Docker构建微服务.md)
     * [3.1 Docker介绍](3 使用Docker构建微服务/3.1 Docker介绍.md)
     * [3.2 Docker的安装](3 使用Docker构建微服务/3.2 Docker的安装.md)
