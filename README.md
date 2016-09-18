@@ -24,7 +24,7 @@
 | 使用Docker构建微服务 | Docker、Spring Cloud | 使用Maven插件构建Docker镜像                      | 已完成  |
 
 
-目前截止到API Gateway已经完成。
+
 
 **迭代计划**
 
