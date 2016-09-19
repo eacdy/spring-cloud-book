@@ -68,73 +68,80 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 | microservice-provider-user               | 8000 | 服务提供者                  | /1              |
 |                                          |      |                        |                 |
 
+
+
 Spring Cloud所有的配置项：
 
 [http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties](http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties)
 
-父项目的建立
+
+
+父项目的建立：
 
 在进入主题之前，我们首先创建一个父项目（spring-cloud-microservice-study），这样可以对项目中的Maven依赖进行统一的管理。
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.itmuch.cloud</groupId>
-	<artifactId>spring-cloud-microservice-study</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+  <groupId>com.itmuch.cloud</groupId>
+  <artifactId>spring-cloud-microservice-study</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-	<modules>
-		<module>microservice-discovery-eureka</module>
-		<module>microservice-provider-user</module>
-		<module>microservice-consumer-movie-ribbon</module>
-		<module>microservice-consumer-movie-feign</module>
-		<module>microservice-consumer-movie-ribbon-with-hystrix</module>
-		<module>microservice-consumer-movie-feign-with-hystrix</module>
-		<module>microservice-hystrix-dashboard</module>
-		<module>microservice-consumer-movie-feign-with-hystrix-stream</module>
-		<module>microservice-hystrix-turbine</module>
-		<module>microservice-config-server</module>
-		<module>microservice-config-client</module>
-		<module>microservice-api-gateway</module>
-	</modules>
+  <modules>
+    <module>microservice-discovery-eureka</module>
+    <module>microservice-provider-user</module>
+    <module>microservice-consumer-movie-ribbon</module>
+    <module>microservice-consumer-movie-feign</module>
+    <module>microservice-consumer-movie-ribbon-with-hystrix</module>
+    <module>microservice-consumer-movie-feign-with-hystrix</module>
+    <module>microservice-hystrix-dashboard</module>
+    <module>microservice-consumer-movie-feign-with-hystrix-stream</module>
+    <module>microservice-hystrix-turbine</module>
+    <module>microservice-config-server</module>
+    <module>microservice-config-client</module>
+    <module>microservice-config-server-eureka</module>
+    <module>microservice-config-client-eureka</module>
+    <module>microservice-api-gateway</module>
+  </modules>
 
-	<!-- 使用最新的spring-boot版本 -->
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.0.RELEASE</version>
-	</parent>
+  <!-- 使用最新的spring-boot版本 -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.4.0.RELEASE</version>
+  </parent>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
-	</properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
+  </properties>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Brixton.SR5</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Brixton.SR5</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>
+
 ```
 
 
