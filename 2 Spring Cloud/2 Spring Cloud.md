@@ -18,10 +18,11 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 
 
+
+
 ## 准备工作
 
-
-技术储备：
+* 技术储备：
 
 | 所需技能        | 备注                              |
 | ----------- | ------------------------------- |
@@ -29,7 +30,7 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 | Maven       | 文章涉及到大量的代码，均使用Maven构建           |
 | Spring Boot | Spring Cloud是在Spring Boot基础上构建的 |
 
-环境准备：
+* 环境准备：
 
 | 工具    | 版本或描述                            |
 | ----- | -------------------------------- |
@@ -37,20 +38,20 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 | IDE   | STS 或者 IntelliJ IDEA，本教程使用的是STS. |
 | Maven | 3.x                              |
 
-本课程所使用的软件及版本：
+* 本课程所使用的软件及版本：
 
 | 使用到的软件       | 版本号           | 是否最新版本 |
 | ------------ | ------------- | ------ |
 | Spring Boot  | 1.4.0.RELEASE | 是      |
 | Spring Cloud | Brixton.SR5   | 是      |
 
-主机名配置：
+* Host配置：在生产环境下，我们往往会为每个应用配置一个host，使用host而非IP进行访问。为了更加贴近生产环境，以及后文Docker章节的讲解，我们配置一下Host。在Windows系统下，是`C:\Windows\System32\drivers\etc\hosts` 文件，在Linux系统下，是`/etc/hosts` 文件：
 
-| 主机名配置（C:\Windows\System32\drivers\etc\hosts文件） |
+| Host配置                                   |
 | ---------------------------------------- |
 | 127.0.0.1 discovery config-server gateway movie user feign ribbon |
 
-主机规划：
+* 主机规划：
 
 | 项目名称                                     | 端口   | 描述                     | URL             |
 | ---------------------------------------- | ---- | ---------------------- | --------------- |
@@ -70,13 +71,15 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 
 
-Spring Cloud所有的配置项：
+* Spring Cloud所有的配置项：
 
 [http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties](http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_appendix_compendium_of_configuration_properties)
 
 
 
-父项目的建立：
+
+
+## 父项目的建立
 
 在进入主题之前，我们首先创建一个父项目（spring-cloud-microservice-study），这样可以对项目中的Maven依赖进行统一的管理。
 
@@ -143,6 +146,8 @@ Spring Cloud所有的配置项：
 </project>
 
 ```
+
+
 
 
 
