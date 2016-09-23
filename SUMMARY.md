@@ -30,3 +30,7 @@
     * [3.6 使用Dockerfile构建Docker镜像](3 使用Docker构建微服务/3.6 使用Dockerfile构建Docker镜像.md)
     * [3.7 使用Maven插件构建Docker镜像](3 使用Docker构建微服务/3.7 使用Maven插件构建Docker镜像.md)
     * [3.8 Docker Compose](3 使用Docker构建微服务/3.8 Docker Compose.md)
+		* [3.8.1 Docker Compose的安装](3 使用Docker构建微服务/3.8.1 Docker Compose的安装.md)
+		* [3.8.2 Docker Compose入门示例](3 使用Docker构建微服务/3.8.2 Docker Compose入门示例.md)
+		* [3.8.3 docker-compose.yml常用命令](3 使用Docker构建微服务/3.8.3 docker-compose.yml常用命令.md)
+		* [3.8.4 docker-compose常用命令](3 使用Docker构建微服务/3.8.4 docker-compose常用命令.md)
