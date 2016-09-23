@@ -1,14 +1,5 @@
 {
 	"title" : "使用Spring Cloud与Docker实战微服务",
     "description" : "",
-    "author" : "周立",
-    "plugins": [
-        "duoshuo"
-    ],
-    "pluginsConfig": {
-        "duoshuo": {
-            "short_name": "book-itmuch",
-            "theme": "default"
-        }
-    }
+    "author" : "周立"
 }
