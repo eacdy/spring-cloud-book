@@ -29,4 +29,4 @@
     * [3.5 Docker私有仓库的搭建](3 使用Docker构建微服务/3.5 Docker私有仓库的搭建.md)
     * [3.6 使用Dockerfile构建Docker镜像](3 使用Docker构建微服务/3.6 使用Dockerfile构建Docker镜像.md)
     * [3.7 使用Maven插件构建Docker镜像](3 使用Docker构建微服务/3.7 使用Maven插件构建Docker镜像.md)
-    * [3.8 Docker Compose](3 使用Docker构建微服务/Docker Compose.md)
+    * [3.8 Docker Compose](3 使用Docker构建微服务/3.8 Docker Compose.md)
