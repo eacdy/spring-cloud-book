@@ -15,5 +15,3 @@ target/
 
 # gitbook
 _book
-node_modules
-book.json
