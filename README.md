@@ -4,7 +4,23 @@
 
 ## 简介
 
-本文主要是对Spring Cloud学习的一些总结，已完成的章节包括：
+本文主要是对`Spring Cloud` 和 `Docker` 的学习总结与实战 ，目前在`Git@OSC` 以及`Github` 上同步更新。
+
+本书地址：
+
+Git@OSC地址：http://git.oschina.net/itmuch/spring-cloud-book
+
+Github地址：https://github.com/eacdy/spring-cloud-book
+
+配套代码地址：
+
+Git@OSC地址：[http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
+
+Github地址：https://github.com/eacdy/spring-cloud-study
+
+
+
+已完成的章节包括：
 
 - 1 微服务简介
 - 2 Spring Cloud
@@ -56,15 +72,9 @@
 
 1. 访问http://www.itmuch.com，可以评论、分享、论坛讨论，推荐；
 2. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
-3. 使用Gitbook 自行构建；
+3. 使用Gitbook 自行构建（nodejs工具，百度一下）；
 4. 将代码pull到本地后，使用`Typora` 或`Atom` 等`Markdown` 阅读软件进行阅读。
 
-
-
-## 配套代码
-[http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
-
-https://github.com/eacdy/spring-cloud-study
 
 
 
