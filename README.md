@@ -128,7 +128,7 @@ S1ahs3r  Leoops 牛牛
 
 如果觉得内容赞，您可以请我喝杯咖啡：
 
-![donate](donate.png)
+![donate](images/donate.png)
 
 
 
@@ -140,6 +140,6 @@ S1ahs3r  Leoops 牛牛
 
 微服务架构交流QQ群：157525002，欢迎加入。
 
-微信公众号：![wx](wx.jpg)
+微信公众号：![wx](images/wx.jpg)
 
 微服务架构讨论社区：[http://ask.itmuch.com/](http://ask.itmuch.com/)，欢迎加入。
