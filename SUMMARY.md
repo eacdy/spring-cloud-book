@@ -1,6 +1,6 @@
 # Summary
 
-* [序](README.md)
+* [首页](README.md)
 * [1 微服务简介](1 微服务简介/1 微服务简介.md)
 * [2 Spring Cloud](2 Spring Cloud/2 Spring Cloud.md)
     * [2.1 服务发现](2 Spring Cloud/2.1 服务发现.md)
