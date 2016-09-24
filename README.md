@@ -54,58 +54,17 @@
 
 虽然直接在Git@OSC上也可以阅读，但是建议使用gitbook，以获得良好的阅读体验。
 
-### 安装使用Gitbook
-
-#### 安装NodeJS
-
-Windows下：
-
->  对于Windows系统下载nodejs：前往https://nodejs.org/en/ ，下载对应版本，然后双击下一步安装。
-
-Linux下：
-
->  可以使用nvm等工具安装，也可以编译安装。非常简单。相信玩Linux的不需要我讲。
-
-
-
-#### 安装Gitbook
-
-安装：
-
-```shell
-npm install -g gitbook-cli
-```
-
-验证：
-
-```shell
-gitbook -V
-```
-
-启动：
-
-```shell
-// 首先将代码pull到本地
-cd $spring-cloud-book    # 目录切换到spring-cloud-book目录
-gitbook serve
-```
-
-阅读：
-
-访问http://localhost:4000
-
-
-
-### 懒人用法
-
-方法一、将代码pull到本地后，使用Typora等Markdown工具阅读。
-
-方法二、直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
+1. 访问http://www.itmuch.com，可以评论、分享、论坛讨论，推荐；
+2. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
+3. 使用Gitbook 自行构建；
+4. 将代码pull到本地后，使用`Typora` 或`Atom` 等`Markdown` 阅读软件进行阅读。
 
 
 
 ## 配套代码
 [http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
+
+https://github.com/eacdy/spring-cloud-study
 
 
 
