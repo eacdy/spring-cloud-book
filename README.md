@@ -72,7 +72,7 @@ Github地址：https://github.com/eacdy/spring-cloud-study
 
 虽然直接在Git@OSC上也可以阅读，但是建议使用gitbook，以获得良好的阅读体验。
 
-1. 访问http://www.itmuch.com，可以评论、分享、论坛讨论，推荐；
+1. 访问[http://www.itmuch.com](http://www.itmuch.com) ，可以评论、分享、论坛讨论，(推荐)；
 2. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
 3. 使用Gitbook 自行构建（nodejs工具，百度一下）；
 4. 将代码pull到本地后，使用`Typora` 或`Atom` 等`Markdown` 阅读软件进行阅读。
