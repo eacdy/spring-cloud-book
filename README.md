@@ -60,9 +60,11 @@ Github地址：https://github.com/eacdy/spring-cloud-study
 
 **迭代计划**
 
-> 1. 讲解Docker的使用，以及如何使用Docker部署Spring Cloud应用。
-> 2. 汇总成一个开箱可用的脚手架框架
-> 3. 总结一个Spring Cloud开发的最佳实践
+> 1. 如何使用Docker部署Spring Cloud应用。
+> 2. 持续集成
+> 3. 自动运维
+> 4. 汇总成一个开箱可用的脚手架框架
+> 5. 总结一个Spring Cloud开发的最佳实践
 
 
 
