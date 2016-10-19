@@ -1,10 +1,17 @@
 {
-	"title" : "使用Spring Cloud与Docker实战微服务",
+    "title" : "使用Spring Cloud与Docker实战微服务",
     "description" : "实战微服务",
     "author" : "周立",
-	"links": {
-	    "sidebar" : {
-			"论坛": "http://ask.itmuch.com"
-		}
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 14,
+    "paperSize": "a4",
+    "margin": {
+      "right": 50,
+      "left": 50,
+      "top": 50,
+      "bottom": 50
     }
+  }
+
 }
