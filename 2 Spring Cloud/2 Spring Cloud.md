@@ -14,7 +14,7 @@ Spring Cloud 项目主页：[http://projects.spring.io/spring-cloud/](http://pro
 
 
 
- Talk is cheep, show me the code.下面我们将以代码与讲解结合的方式，为大家讲解Spring Cloud中的各种组件。
+ Talk is cheap, show me the code.下面我们将以代码与讲解结合的方式，为大家讲解Spring Cloud中的各种组件。
 
 
 
