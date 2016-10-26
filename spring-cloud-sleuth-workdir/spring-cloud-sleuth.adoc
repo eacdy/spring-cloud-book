@@ -1,0 +1,36 @@
+= Spring Cloud Sleuth
+
+译者：周立
+
+**Camden.SR1**
+
+Spring Cloud Sleuth为Spring Cloud实现了一个分布式的跟踪解决方案。
+
+=== 术语解释
+
+Spring Cloud Sleuth借鉴了 http://research.google.com/pubs/pub36356.html[Dapper’s]的术语。
+
+
+**Span:** 工作的基本单元。例如，发送一个RPC请求是一个新建的span，发送一个响应给RPC也是一样的。Span的确定是有一个唯一的64位的ID的span和另外的64位跟踪跨度的一部分。Span也有其他的数据，例如：描述、时间戳事件、键值对的注解（标签），span的ID、进程ID（通常是IP地址）。
+
+Span被启动和停止，同时记录了时间信息，当你创建了一个span，你必须在未来的某个时间停止它。
+
+|====
+| TIP |开始一个跟踪的初始span被称为“root span”。该span的id和trace id相等。
+|====
+
+**Trace:** 一组span形成的一个树状结构。例如，如果你正在运行一个分布式大数据存储，则trace可能由一个put请求形成。
+
+
+**Annotation:** 用来及时记录一个事件的存在。一些核心的annotation用于定义一个请求的开始和结束：
+
+*   **cs** - Client Sent（客户端发送） - 客户端创建了一个请求。该annotation描述了span的开始。
+
+*   **sr** - Server Received（服务器端接收） - 服务器端得到了请求并将开始处理它。如果用该时间戳减去cs时间戳，就可以得到网络的延迟时间.
+
+*   **ss** - Server Sent（服务器端发送） - 该annotation用于在完成请求处理的时候（当响应被发回客户端时）。如果用该时间戳减去sr时间戳，就可以得到服务器端处理请求所需的时间。
+
+*   **cr** - Client Received（客户端接收） - 一个span结束的标志。客户端成功地接收到了服务器端的响应。如果用该时间戳减去cs时间戳，就可以得到从客户端发送请求到服务器响应的所需的时间。
+
+
+
