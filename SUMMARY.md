@@ -29,4 +29,8 @@
     * [4.4 Eureka原理](4/4.4 Eureka原理.md)
     * [4.5 实现一个Eureka Server](4/4.5 实现一个Eureka Server.md)
         * [4.5.1 Eureka Server代码示例](4/4.5.1 Eureka Server代码示例.md)
+    * [4.6 实现一个Eureka Client](4/4.6 实现一个Eureka Client.md)
+        * [4.6.1 Eureka Client代码示例](4/4.6.1 Eureka Client代码示例.md)
+        * [4.6.2 目前存在的问题](4/4.6.2 目前存在的问题.md)
+        * [4.6.3 客户端侧负载均衡——Ribbon](4/4.6.3 客户端侧负载均衡——Ribbon.md)
 
