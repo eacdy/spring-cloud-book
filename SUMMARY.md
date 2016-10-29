@@ -27,4 +27,6 @@
     * [4.2 Spring Cloud中提供的服务发现组件](4/4.2 Spring Cloud中提供的服务发现组件.md)
     * [4.3 Eureka简介](4/4.3 Eureka简介.md)
     * [4.4 Eureka原理](4/4.4 Eureka原理.md)
+    * [4.5 实现一个Eureka Server](4/4.5 实现一个Eureka Server.md)
+        * [4.5.1 Eureka Server代码示例](4/4.5.1 Eureka Server代码示例.md)
 
