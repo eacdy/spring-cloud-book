@@ -4,15 +4,13 @@
 
 **本书地址**：
 
-Git@OSC地址：http://git.oschina.net/itmuch/spring-cloud-book
-
-Github地址：https://github.com/eacdy/spring-cloud-book
+* Git@OSC地址：http://git.oschina.net/itmuch/spring-cloud-book
+* Github地址：https://github.com/eacdy/spring-cloud-book
 
 **配套代码地址**：
 
-Git@OSC地址：[http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
-
-Github地址：https://github.com/eacdy/spring-cloud-study
+* Git@OSC地址：[http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
+* Github地址：https://github.com/eacdy/spring-cloud-study
 
 
 **迭代计划**
@@ -40,10 +38,9 @@ Github地址：https://github.com/eacdy/spring-cloud-study
 
 虽然直接在Git@OSC上也可以阅读，但是建议使用GitBook，以获得良好的阅读体验。
 
-1. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
-2. 使用Gitbook 自行构建（Node.js工具，百度一下）；
-3. 将代码pull到本地后，使用Typora或Atom等Markdown阅读软件进行阅读。
-
+* 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
+* 使用Gitbook 自行构建（Node.js工具，百度一下）；
+* 将代码clone到本地后，使用Typora或Atom等Markdown阅读软件进行阅读。
 
 
 
