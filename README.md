@@ -1,26 +1,20 @@
 # 使用Spring Cloud与Docker实战微服务
 
+本文是对Spring Cloud和Docker的实战与总结 ，目前在`Git@OSC` 以及`Github` 上同步更新。
 
-
-## 简介
-
-本文主要是对`Spring Cloud` 和 `Docker` 的学习总结与实战 ，目前在`Git@OSC` 以及`Github` 上同步更新。
-
-本书地址：
+**本书地址**：
 
 Git@OSC地址：http://git.oschina.net/itmuch/spring-cloud-book
 
 Github地址：https://github.com/eacdy/spring-cloud-book
 
-配套代码地址：
+**配套代码地址**：
 
 Git@OSC地址：[http://git.oschina.net/itmuch/spring-cloud-study](http://git.oschina.net/itmuch/spring-cloud-study) 
 
 Github地址：https://github.com/eacdy/spring-cloud-study
 
-
-
-已完成的章节包括：
+**已完成的章节包括**：
 
 - 1 微服务简介
 - 2 Spring Cloud
@@ -63,19 +57,18 @@ Github地址：https://github.com/eacdy/spring-cloud-study
 > 1. 如何使用Docker部署Spring Cloud应用。
 > 2. 持续集成
 > 3. 自动运维
-> 4. 汇总成一个开箱可用的脚手架框架
-> 5. 总结一个Spring Cloud开发的最佳实践
+> 4. 开箱可用的脚手架项目汇总
+> 5. Spring Cloud最佳实践总结
 
 
 
 ## 使用说明
 
-虽然直接在Git@OSC上也可以阅读，但是建议使用gitbook，以获得良好的阅读体验。
+虽然直接在Git@OSC上也可以阅读，但是建议使用GitBook，以获得良好的阅读体验。
 
-1. 访问[http://www.itmuch.com](http://www.itmuch.com) ，可以评论、分享、论坛讨论，(推荐)；
-2. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
-3. 使用Gitbook 自行构建（nodejs工具，百度一下）；
-4. 将代码pull到本地后，使用`Typora` 或`Atom` 等`Markdown` 阅读软件进行阅读。
+1. 直接访问Gitbook官网：[https://eacdy.gitbooks.io/spring-cloud-book/content/](https://eacdy.gitbooks.io/spring-cloud-book/content/)
+2. 使用Gitbook 自行构建（Node.js工具，百度一下）；
+3. 将代码pull到本地后，使用Typora或Atom等Markdown阅读软件进行阅读。
 
 
 
@@ -87,6 +80,8 @@ Github地址：https://github.com/eacdy/spring-cloud-study
 | 牛牛   | 200  | 微信红包  |
 | 浩    | 10   | 支付宝转账 |
 
+还有通过git@osc项目捐助的兄弟！
+
 
 
 ##  鸣谢
@@ -97,20 +92,15 @@ S1ahs3r  Leoops 牛牛
 
 
 
-如果觉得内容赞，您可以请我喝杯咖啡：
-
-![donate](images/donate.png)
-
-
-
-
-
 ## 广告
 
-欢迎探讨、star、fork、pull request、喷。哈哈。
+欢迎探讨、Star、Fork、Pull Request、勘误、喷。哈哈。
 
 微服务架构交流QQ群：157525002，欢迎加入。
 
-微信公众号：![wx](images/wx.jpg)
+我的微信公众号：
 
-微服务架构讨论社区：[http://ask.itmuch.com/](http://ask.itmuch.com/)，欢迎加入。
+![wx](images/wx.jpg)
+
+
+
