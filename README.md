@@ -25,9 +25,18 @@
 
 ## 关注
 
-* 我的实体书《Spring Cloud与Docker微服务实战》即将出版，相比开源版本，实体书更加系统、详细。
-* 实体书配套代码：[http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code](http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code) ，近期开放，敬请期待！
+* 实体书《Spring Cloud与Docker微服务实战》上市啦！
+
+  * 京东购买链接
+
+    ![](images/jd-购书链接.png)
+
+  * 亚马逊购书链接
+
+    ![](images/amz-购书链接.jpg)
+
 * QQ群：157525002，欢迎加入。
+
 * 微信公众号：
 
 ![wx](images/wx.jpg)
