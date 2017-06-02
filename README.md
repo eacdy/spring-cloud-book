@@ -25,7 +25,7 @@
 
 ## 关注
 
-* 实体书《Spring Cloud与Docker微服务实战》上市啦！京东购买链接：
+* 实体书《Spring Cloud与Docker微服务实战》上市啦！实体书基于Spring Cloud Camden SR4&Docker 1.13编写！京东购买链接：
 
   ![](images/jd-购书链接.png)
 
